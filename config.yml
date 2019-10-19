@@ -1,0 +1,74 @@
+---
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-drivers
+  - homebrew/cask-fonts
+  - homebrew/cask-versions
+  - aws/tap
+  - thoughtbot/formulae
+
+homebrew_apps:
+  - 1password
+  - arq
+  - bartender
+  - basecamp
+  - brave-browser
+  - chromium
+  - cleanmymac
+  - cyberduck
+  - dash
+  - font-fira-code
+  - kindle
+  - launchbar
+  - mountain-duck
+  - omnifocus
+  - paw
+  - screens
+  - screens-connect
+  - spillo
+  - slack
+  - spotify
+  - sublime-text
+  - tower
+  - transmit
+
+homebrew_packages:
+  - aws-shell
+  - awscli
+  - aws-sam-cli
+  - ctags
+  - curl
+  - fzf
+  - git
+  - git-lfs
+  - heroku
+  - htop
+  - hub
+  - httpie
+  - imagemagick
+  - jq
+  - libmemcached
+  - memcached
+  - mtr
+  - neovim
+  - neofetch
+  - python
+  - rbenv
+  - redis
+  - ruby-build
+  - the_silver_searcher
+  - tree
+  - wget
+  - watch
+  - zlib
+  - zsh
+
+  mas_apps:
+  - { name: 1Blocker, id: 1107421413 }
+  - { name: Numbers, id: 409203825 }
+  - { name: Pages, id: 409201541 }
+  - { name: Omnifocus 3, id: 1346203938 }
+  - { name: Reeder 4, id: 1449412482 }
+  - { name: Xcode, id: 497799835 }
+  - { name: iA Writer, id: 775737590 }
