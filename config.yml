@@ -51,6 +51,7 @@ homebrew_packages:
   - libmemcached
   - memcached
   - mtr
+  - n
   - neovim
   - neofetch
   - python
