@@ -31,7 +31,6 @@ homebrew_apps:
   - spotify
   - sublime-text
   - tower
-  - transmit
 
 homebrew_packages:
   - aws-shell
