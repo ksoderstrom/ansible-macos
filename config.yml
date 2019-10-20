@@ -54,6 +54,7 @@ homebrew_packages:
   - n
   - neovim
   - neofetch
+  - postgresql
   - python
   - rbenv
   - redis
