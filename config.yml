@@ -242,3 +242,28 @@ settings:
     key: SecureKeyboardEntry
     value: true
     type: bool
+
+  - domain: com.apple.SoftwareUpdate
+    key: AutomaticCheckEnabled
+    value: true
+    type: bool
+  - domain: com.apple.SoftwareUpdate
+    key: ScheduleFrequency
+    value: 1
+    type: int
+  - domain: com.apple.SoftwareUpdate
+    key: AutomaticDownload
+    value: 1
+    type: int
+  - domain: com.apple.SoftwareUpdate
+    key: CriticalUpdateInstall
+    value: 1
+    type: int
+  - domain: com.apple.SoftwareUpdate
+    key: ConfigDataInstall
+    value: 1
+    type: int
+  - domain: com.apple.commerce
+    key: AutoUpdate
+    value: true
+    type: bool
