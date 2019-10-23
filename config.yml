@@ -127,3 +127,114 @@ settings:
   - domain: com.apple.Dock
     key: orientation
     value: left
+  - domain: com.apple.Dock
+    key: tilesize
+    value: 36
+    type: int
+  - domain: com.apple.Dock
+    key: largesize
+    value: 50
+    type: int
+  - domain: com.apple.Dock
+    key: show-recents
+    value: false
+    type: bool
+
+  - domain: NSGlobalDomain
+    key: NSAutomaticCapitalizationEnabled
+    value: false
+    type: bool
+  - domain: NSGlobalDomain
+    key: NSAutomaticDashSubstitutionEnabled
+    value: false
+    type: bool
+  - domain: NSGlobalDomain
+    key: NSAutomaticPeriodSubstitutionEnabled
+    value: false
+    type: bool
+  - domain: NSGlobalDomain
+    key: NSAutomaticQuoteSubstitutionEnabled
+    value: false
+    type: bool
+  - domain: NSGlobalDomain
+    key: NSAutomaticSpellingCorrectionEnabled
+    value: false
+    type: bool
+  - domain: NSGlobalDomain
+    key: InitialKeyRepeat
+    value: 35
+    type: int
+  - domain: NSGlobalDomain
+    key: KeyRepeat
+    value: 2
+    type: int
+  - domain: NSGlobalDomain
+    key: AppleShowAllExtensions
+    value: true
+    type: bool
+
+  - domain: com.apple.finder
+    key: ShowStatusBar
+    value: true
+    type: bool
+  - domain: com.apple.finder
+    key: ShowPathBar
+    value: true
+    type: bool
+  - domain: com.apple.finder
+    key: FXPreferredViewStyle
+    value: Nlsv
+    type: string
+
+  - domain: com.apple.Safari
+    key: ShowFullURLInSmartSearchField
+    value: true
+    type: bool
+  - domain: com.apple.Safari
+    key: SearchProviderIdentifier
+    value: com.duckduckgo
+  - domain: com.apple.Safari
+    key: ShowIconsInTabs
+    value: true
+    type: bool
+  - domain: com.apple.Safari
+    key: ShowOverlayStatusBar
+    value: true
+    type: bool
+  - domain: com.apple.Safari
+    key: IncludeDevelopMenu
+    value: true
+    type: bool
+  - domain: com.apple.Safari
+    key: FindOnPageMatchesWordStartsOnly
+    value: false
+    type: bool
+  - domain: com.apple.Safari
+    key: AutoFillFromAddressBook
+    value: false
+    type: bool
+  - domain: com.apple.Safari
+    key: AutoFillPasswords
+    value: false
+    type: bool
+  - domain: com.apple.Safari
+    key: AutoFillCreditCardData
+    value: false
+    type: bool
+  - domain: com.apple.Safari
+    key: AutoFillMiscellaneousForms
+    value: false
+    type: bool
+  - domain: com.apple.Safari
+    key: SendDoNotTrackHTTPHeader
+    value: true
+    type: bool
+  - domain: com.apple.Safari
+    key: InstallExtensionUpdatesAutomatically
+    value: false
+    type: bool
+
+  - domain: com.apple.terminal
+    key: SecureKeyboardEntry
+    value: true
+    type: bool
