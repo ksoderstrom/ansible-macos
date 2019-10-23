@@ -72,5 +72,6 @@ mas_apps:
   - { name: Pages, id: 409201541 }
   - { name: Omnifocus 3, id: 1346203938 }
   - { name: Reeder 4, id: 1449412482 }
+  - { name: Soulver 2, id: 413965349 }
   - { name: iA Writer, id: 775737590 }
 # - { name: Xcode, id: 497799835 }
