@@ -18,7 +18,7 @@
       tags: [mas]
     - role: dock
       tags: [dock]
-    # - role: settings
-    #   tags: [settings]
+    - role: settings
+      tags: [settings]
     # - role: shell
     #   tags: [shell]

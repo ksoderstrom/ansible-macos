@@ -123,3 +123,7 @@ dockitems_to_persist:
     path: "/Applications/LaunchBar.app"
     pos: 13
 
+settings:
+  - domain: com.apple.Dock
+    key: orientation
+    value: left
