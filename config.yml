@@ -165,6 +165,10 @@ settings:
     value: false
     type: bool
   - domain: NSGlobalDomain
+    key: ApplePressAndHoldEnabled
+    value: false
+    type: bool
+  - domain: NSGlobalDomain
     key: InitialKeyRepeat
     value: 35
     type: int
@@ -174,6 +178,14 @@ settings:
     type: int
   - domain: NSGlobalDomain
     key: AppleShowAllExtensions
+    value: true
+    type: bool
+  - domain: NSGlobalDomain
+    key: NSNavPanelExpandedStateForSaveMode
+    value: true
+    type: bool
+  - domain: NSGlobalDomain
+    key: NSNavPanelExpandedStateForSaveMode2
     value: true
     type: bool
 
@@ -267,3 +279,4 @@ settings:
     key: AutoUpdate
     value: true
     type: bool
+
