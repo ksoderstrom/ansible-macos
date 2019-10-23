@@ -136,6 +136,10 @@ settings:
     value: 50
     type: int
   - domain: com.apple.Dock
+    key: magnification
+    value: true
+    type: bool
+  - domain: com.apple.Dock
     key: show-recents
     value: false
     type: bool
