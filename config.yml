@@ -3,7 +3,6 @@ homebrew_taps:
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-drivers
-  - homebrew/cask-fonts
   - homebrew/cask-versions
   - aws/tap
   - thoughtbot/formulae
@@ -19,8 +18,8 @@ homebrew_apps:
   - cleanmymac
   - cyberduck
   - dash
-  - font-fira-code
   - gitify
+  - iterm2
   - kindle
   - launchbar
   - mountain-duck
@@ -92,8 +91,8 @@ dockitems_to_remove:
   - System Preferences
 
 dockitems_to_persist:
-  - name: Terminal
-    path: "/Applications/Utilities/Terminal.app"
+  - name: iTerm
+    path: "/Applications/iTerm.app"
     pos: 2
   - name: Basecamp 3
     path: "/Applications/Basecamp 3.app"
