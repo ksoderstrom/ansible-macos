@@ -5,4 +5,4 @@
     type: "{{ item.type | 'string' }}"
     value: "{{ item.value }}"
     state: "{{ item.state | 'present' }}"
-    with_items: "{{ settings }}"
+  with_items: "{{ settings }}"
