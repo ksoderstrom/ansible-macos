@@ -11,3 +11,6 @@
 - name: Fix order
   shell: dockutil --move '{{ item.name }}' --position {{ item.pos }}
   with_items: "{{ dockitems_to_persist }}"
+
+- name: Add Applications
+  shell: dockutil --add '/Applications' --view grid --display folder --before 'Downloads'
