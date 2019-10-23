@@ -38,6 +38,7 @@ homebrew_packages:
   - aws-sam-cli
   - ctags
   - curl
+  - dockutil
   - fzf
   - git
   - git-lfs
@@ -75,3 +76,23 @@ mas_apps:
   - { name: Soulver 2, id: 413965349 }
   - { name: iA Writer, id: 775737590 }
 # - { name: Xcode, id: 497799835 }
+
+dock_items_to_remove:
+  - Siri
+  - Launchpad
+  - Mail
+  - Contacts
+  - Notes
+  - Maps
+  - Photos
+  - FaceTime
+  - iTunes
+  - App Store
+  - System Preferences
+
+dock_items_to_persist:
+  - name: Terminal
+    path: "/Applications/Utilities/Terminal.app"
+    pos: 2
+
+

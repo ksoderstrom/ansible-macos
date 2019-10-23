@@ -16,6 +16,8 @@
       tags: [homebrew]
     - role: mas
       tags: [mas]
+    - role: dock
+      tags: [dock]
     # - role: settings
     #   tags: [settings]
     # - role: shell
