@@ -75,9 +75,9 @@ mas_apps:
   - { name: Reeder 4, id: 1449412482 }
   - { name: Soulver 2, id: 413965349 }
   - { name: iA Writer, id: 775737590 }
-# - { name: Xcode, id: 497799835 }
+  - { name: Xcode, id: 497799835 }
 
-dock_items_to_remove:
+dockitems_to_remove:
   - Siri
   - Launchpad
   - Mail
@@ -90,7 +90,7 @@ dock_items_to_remove:
   - App Store
   - System Preferences
 
-dock_items_to_persist:
+dockitems_to_persist:
   - name: Terminal
     path: "/Applications/Utilities/Terminal.app"
     pos: 2
