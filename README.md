@@ -11,3 +11,7 @@ To run the playbook, execute:
 ```
 ansible-playbook main.yml
 ```
+
+## Manual steps
+
+1. Download and install [PragmataPro](https://www.fsd.it/my-account/downloads/)
