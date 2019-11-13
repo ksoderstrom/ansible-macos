@@ -279,3 +279,6 @@ settings:
     value: true
     type: bool
 
+dotfiles:
+  https: https://github.com/ksoderstrom/dotfiles.git
+  ssh: git@github.com:ksoderstrom/dotfiles.git

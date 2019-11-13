@@ -20,5 +20,7 @@
       tags: [dock]
     - role: settings
       tags: [settings]
+    - role: rcm
+      tags: [rcm]
     # - role: shell
     #   tags: [shell]
