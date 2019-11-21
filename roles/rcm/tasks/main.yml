@@ -1,6 +1,11 @@
 ---
+- name: Check for existing dotfiles
+  stat: path=~/.dotfiles
+  register: repo
+
 - name: Clone dotfiles
   shell: git clone {{ dotfiles.https }} ~/.dotfiles
+  when: not repo.stat.exists
 
 - name: Switch to ssh remote
   shell: git -C ~/.dotfiles remote set-url origin {{ dotfiles.ssh }}
