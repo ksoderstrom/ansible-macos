@@ -20,6 +20,7 @@ homebrew_apps:
   - dash
   - gitify
   - iterm2
+  - keyboard-maestro
   - kindle
   - launchbar
   - mountain-duck
