@@ -13,4 +13,4 @@
   with_items: "{{ dockitems_to_persist }}"
 
 - name: Add Applications
-  shell: dockutil --add '/Applications' --replacing 'Applications' --view grid --display folder --before 'Downloads'
+  shell: dockutil --add '/Applications' --replacing 'Applications' --view grid --display folder --sort name --before 'Downloads'
