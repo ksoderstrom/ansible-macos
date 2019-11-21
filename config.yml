@@ -57,6 +57,7 @@ homebrew_packages:
   - postgresql
   - python
   - rbenv
+  - rcm
   - redis
   - ruby-build
   - the_silver_searcher
