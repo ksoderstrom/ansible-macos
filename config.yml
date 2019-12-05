@@ -19,6 +19,7 @@ homebrew_apps:
   - cyberduck
   - dash
   - gitify
+  - handbrake
   - iterm2
   - keyboard-maestro
   - kindle
@@ -32,6 +33,7 @@ homebrew_apps:
   - spotify
   - sublime-text
   - tower
+  - vlc
 
 homebrew_packages:
   - aws-shell
