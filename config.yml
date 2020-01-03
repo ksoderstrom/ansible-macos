@@ -291,3 +291,6 @@ settings:
 dotfiles:
   https: https://github.com/ksoderstrom/dotfiles.git
   ssh: git@github.com:ksoderstrom/dotfiles.git
+
+iterm2_preferences_custom_folder: ~/.iterm2
+iterm2_shell_integration: no

@@ -12,15 +12,9 @@
       tags: ['always']
 
   roles:
-    - role: homebrew
-      tags: [homebrew]
-    - role: mas
-      tags: [mas]
-    - role: dock
-      tags: [dock]
-    - role: settings
-      tags: [settings]
-    - role: rcm
-      tags: [rcm]
-    # - role: shell
-    #   tags: [shell]
+    - homebrew
+    - mas
+    - dock
+    - settings
+    - rcm
+    - lwalley.iterm2
