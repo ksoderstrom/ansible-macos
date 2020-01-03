@@ -8,4 +8,4 @@
   when: not tpm.stat.exists
 
 - name: Install tpm plugins
-  shell: ~/.tmux/plugins/tpm/bin/install_plugins
+  shell: tmux new-session -d "sleep 2" && sleep 0.2 && ~/.tmux/plugins/tpm/bin/install_plugins
