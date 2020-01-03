@@ -1,0 +1,11 @@
+---
+- name: Check for existing tpm repo
+  stat: path=~/.tmux/plugins/tpm
+  register: tpm
+
+- name: Clone tpm repo
+  shell: git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+  when: not tpm.stat.exists
+
+- name: Install tpm plugins
+  shell: ~/.tmux/plugins/tpm/bin/install_plugins

@@ -1,0 +1,9 @@
+---
+- name: Check for existing zim
+  stat: path=~/.zim
+  register: repo
+
+- name: Clone zim
+  shell: git clone --recursive https://github.com/Eriner/zim.git ~/.zim
+  when: not repo.stat.exists
+

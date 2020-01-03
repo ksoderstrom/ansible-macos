@@ -1,0 +1,17 @@
+---
+- name: Link vim to nvim
+  shell: ln -sf /usr/local/bin/nvim /usr/local/bin/vim
+
+- name: Install neovim pip3 packages
+  shell: pip3 install neovim
+
+- name: Check for existing plug.vim
+  stat: path=~/.local/share/nvim/site/autoload/plug.vim
+  register: plug
+
+- name: Download plug.vim
+  shell: curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  when: not plug.stat.exists
+
+- name: Install vim plugins
+  shell: nvim +PlugInstall +UpdateRemotePlugins +qall
