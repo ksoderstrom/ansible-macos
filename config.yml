@@ -13,29 +13,37 @@ homebrew_apps:
   - arq
   - bartender
   - basecamp
-  - brave-browser
   - chromium
   - cleanmymac
   - cyberduck
   - dash
+  - dropbox
+  - figma
   - gitify
   - handbrake
   - harvest
+  - imageoptim
   - iterm2
   - keyboard-maestro
   - kindle
   - launchbar
+  - ngrok
   - notion
+  - omnidisksweeper
+  - omnigraffle
   - parallels
   - paw
   - screens
   - screens-connect
-  - spillo
+  - sketch
   - slack
   - spotify
+  - steam
   - sublime-text
   - tower
+  - transmission
   - vlc
+  - zeplin
 
 homebrew_packages:
   - aws-shell
