@@ -178,7 +178,7 @@ settings:
     type: bool
   - domain: NSGlobalDomain
     key: InitialKeyRepeat
-    value: 35
+    value: 15
     type: int
   - domain: NSGlobalDomain
     key: KeyRepeat
