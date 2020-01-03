@@ -2,3 +2,7 @@
 - name: Ensure preferences are loaded from a custom folder.
   command: "defaults write com.googlecode.iterm2 'PrefsCustomFolder' -string '{{ iterm2_preferences_custom_folder }}'"
   when: iterm2_preferences_custom_folder is defined and iterm2_preferences_custom_folder
+
+- name: Enable custom preferences
+  command: "defaults write com.googlecode.iterm2 'LoadPrefsFromCustomFolder' -bool true"
+  when: iterm2_preferences_custom_folder is defined and iterm2_preferences_custom_folder
