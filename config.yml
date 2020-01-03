@@ -130,9 +130,6 @@ dockitems_to_persist:
   - name: Reeder
     path: "/Applications/Reeder.app"
     pos: 13
-  - name: LaunchBar
-    path: "/Applications/LaunchBar.app"
-    pos: 14
 
 settings:
   - domain: com.apple.Dock
