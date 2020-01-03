@@ -291,6 +291,15 @@ settings:
     value: true
     type: bool
 
+  - domain: com.stairways.keyboardmaestro.engine
+    key: StatusMenuIncludeApplications
+    value: 0
+    type: int
+  - domain: com.stairways.keyboardmaestro.engine
+    key: StatusMenuIncludePaste
+    value: 0
+    type: int
+
 dotfiles:
   https: https://github.com/ksoderstrom/dotfiles.git
   ssh: git@github.com:ksoderstrom/dotfiles.git
