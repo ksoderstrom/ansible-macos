@@ -14,3 +14,6 @@
 
 - name: Add Applications
   shell: dockutil --add '/Applications' --replacing 'Applications' --view grid --display folder --sort name --before 'Downloads'
+
+- name: Replace Downloads
+  shell: dockutil --add '~/Downloads' --replacing 'Downloads' --view grid --display folder --sort dateadded --after 'Applications'
