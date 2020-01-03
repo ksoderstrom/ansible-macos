@@ -115,21 +115,24 @@ dockitems_to_persist:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 7
+  - name: Notion
+    path: "/Applications/Notion.app"
+    pos: 9
   - name: iA Writer
     path: "/Applications/iA Writer.app"
-    pos: 9
+    pos: 10
   - name: Dash
     path: "/Applications/Dash.app"
-    pos: 10
+    pos: 11
   - name: 1Password 7
     path: "/Applications/1Password 7.app"
-    pos: 11
+    pos: 12
   - name: Reeder
     path: "/Applications/Reeder.app"
-    pos: 12
+    pos: 13
   - name: LaunchBar
     path: "/Applications/LaunchBar.app"
-    pos: 13
+    pos: 14
 
 settings:
   - domain: com.apple.Dock
