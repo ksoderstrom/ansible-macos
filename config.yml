@@ -269,6 +269,18 @@ settings:
     key: InstallExtensionUpdatesAutomatically
     value: false
     type: bool
+  - domain: com.apple.Safari
+    key: StartPageViewControllerMode
+    value: 1
+    type: int
+  - domain: com.apple.Safari
+    key: NewWindowBehavior
+    value: 4
+    type: int
+  - domain: com.apple.Safari
+    key: SearchProviderIdentifier
+    value: com.duckduckgo
+    type: string
 
   - domain: com.apple.terminal
     key: SecureKeyboardEntry
