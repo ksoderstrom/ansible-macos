@@ -275,7 +275,11 @@ settings:
     type: int
   - domain: com.apple.Safari
     key: NewWindowBehavior
-    value: 4
+    value: 1
+    type: int
+  - domain: com.apple.Safari
+    key: NewTabBehavior
+    value: 1
     type: int
   - domain: com.apple.Safari
     key: SearchProviderIdentifier
