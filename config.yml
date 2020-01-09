@@ -221,6 +221,14 @@ settings:
     key: FXPreferredViewStyle
     value: Nlsv
     type: string
+  - domain: com.apple.finder
+    key: NewWindowTarget
+    value: pfHm
+    type: string
+  - domain: com.apple.finder
+    key: NewWindowTargetPath
+    value: "file:///Users/ks/"
+    type: string
 
   - domain: com.apple.Safari
     key: ShowFullURLInSmartSearchField
