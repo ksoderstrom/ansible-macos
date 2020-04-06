@@ -110,6 +110,8 @@ dockitems_to_remove:
   - TV
   - App Store
   - System Preferences
+  - Notion
+  - iA Writer
 
 dockitems_to_persist:
   - name: iTerm
@@ -127,21 +129,18 @@ dockitems_to_persist:
   - name: OmniFocus
     path: "/Applications/OmniFocus.app"
     pos: 7
-  - name: Notion
-    path: "/Applications/Notion.app"
+  - name: Bear
+    path: "/Applications/Bear.app"
     pos: 9
-  - name: iA Writer
-    path: "/Applications/iA Writer.app"
-    pos: 10
   - name: Dash
     path: "/Applications/Dash.app"
-    pos: 11
+    pos: 10
   - name: 1Password 7
     path: "/Applications/1Password 7.app"
-    pos: 12
+    pos: 11
   - name: Reeder
     path: "/Applications/Reeder.app"
-    pos: 13
+    pos: 12
 
 settings:
   - domain: com.apple.Dock
