@@ -10,9 +10,12 @@ homebrew_taps:
 
 homebrew_apps:
   - 1password
+  - adoptopenjdk8
+  - android-studio
   - arq
   - bartender
   - basecamp
+  - carbon-copy-cloner
   - chromium
   - cleanmymac
   - cyberduck
@@ -20,6 +23,7 @@ homebrew_apps:
   - dropbox
   - figma
   - gitify
+  - google-chrome
   - handbrake
   - harvest
   - imageoptim
@@ -28,7 +32,6 @@ homebrew_apps:
   - kindle
   - launchbar
   - ngrok
-  - notion
   - omnidisksweeper
   - omnigraffle
   - parallels
@@ -79,6 +82,7 @@ homebrew_packages:
   - tree
   - wget
   - watch
+  - watchman
   - zlib
   - zsh
 
@@ -93,7 +97,8 @@ mas_apps:
   - { name: Reeder 4, id: 1449412482 }
   - { name: Soulver 2, id: 413965349 }
   - { name: Xcode, id: 497799835 }
-  - { name: iA Writer, id: 775737590 }
+  - { name: Bear, id: 1091189122 }
+  - { name: CARROT Weather, id: 993487541 }
 
 dockitems_to_remove:
   - Siri
