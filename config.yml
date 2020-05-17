@@ -21,6 +21,7 @@ homebrew_apps:
   - cyberduck
   - dash
   - dropbox
+  - fantastical
   - figma
   - gitify
   - google-chrome
@@ -104,6 +105,7 @@ dockitems_to_remove:
   - Siri
   - Launchpad
   - Mail
+  - Calendar
   - Contacts
   - Notes
   - Maps
@@ -128,6 +130,9 @@ dockitems_to_persist:
   - name: Slack
     path: "/Applications/Slack.app"
     pos: 4
+  - name: Fantastical
+    path: "/applications/Fantastical.app"
+    pos: 5
   - name: Messages
     path: "/Applications/Messages.app"
     pos: 6
