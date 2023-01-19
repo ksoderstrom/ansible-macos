@@ -14,40 +14,26 @@ homebrew_apps:
   - android-studio
   - arq
   - bartender
-  - basecamp
-  - carbon-copy-cloner
-  - chromium
-  - cleanmymac
   - cyberduck
   - dash
-  - dropbox
   - fantastical
-  - figma
-  - gitify
   - google-chrome
   - handbrake
-  - harvest
   - imageoptim
   - iterm2
   - keyboard-maestro
-  - kindle
   - launchbar
   - ngrok
   - omnidisksweeper
   - omnigraffle
-  - parallels
-  - paw
-  - screens
-  - screens-connect
-  - sketch
   - slack
   - spotify
   - steam
-  - sublime-text
   - timing
   - tower
   - transmission
   - vlc
+  - visual-studio-code
   - zeplin
 
 homebrew_packages:
@@ -95,7 +81,7 @@ mas_apps:
   - { name: Numbers, id: 409203825 }
   - { name: Omnifocus 3, id: 1346203938 }
   - { name: Pages, id: 409201541 }
-  - { name: Reeder 4, id: 1449412482 }
+  - { name: Reeder 5, id: 1529448980 }
   - { name: Soulver 2, id: 413965349 }
   - { name: Xcode, id: 497799835 }
   - { name: Bear, id: 1091189122 }
@@ -114,6 +100,11 @@ dockitems_to_remove:
   - iTunes
   - Music
   - Podcasts
+  - Keynote
+  - Numbers
+  - Pages
+  - Podcasts
+  - Freeform
   - TV
   - App Store
   - System Preferences

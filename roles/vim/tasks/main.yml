@@ -1,9 +1,9 @@
 ---
-- name: Link vim to nvim
-  file:
-    src: /usr/local/bin/nvim
-    dest: /usr/local/bin/vim
-    state: link
+#- name: Link vim to nvim
+#  file:
+#    src: /usr/local/bin/nvim
+#    dest: /usr/local/bin/vim
+#    state: link
 
 - name: Install neovim pip3 packages
   shell: pip3 install neovim
