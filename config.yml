@@ -16,6 +16,7 @@ homebrew_apps:
   - bartender
   - cyberduck
   - dash
+  - discord
   - fantastical
   - google-chrome
   - handbrake
@@ -24,6 +25,7 @@ homebrew_apps:
   - keyboard-maestro
   - launchbar
   - ngrok
+  - obsidian
   - omnidisksweeper
   - omnigraffle
   - slack
@@ -84,7 +86,6 @@ mas_apps:
   - { name: Reeder 5, id: 1529448980 }
   - { name: Soulver 2, id: 413965349 }
   - { name: Xcode, id: 497799835 }
-  - { name: Bear, id: 1091189122 }
   - { name: CARROT Weather, id: 993487541 }
 
 dockitems_to_remove:
